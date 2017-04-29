@@ -1,0 +1,15 @@
+- title: "Research"
+  href: "/research/"
+  
+- title: "Blog"
+  href: "/blog/"
+
+- title: "More"
+  subcategories:
+    - subtitle: "Work-Ex"
+      subhref: "/more/work_experience/"
+    - subtitle: "CV"
+      subhref: "/more/cv/"
+    - subtitle: "About Me"
+      subhref: "/more/about_me/"
+
