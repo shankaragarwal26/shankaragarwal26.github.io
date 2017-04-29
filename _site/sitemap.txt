@@ -1,7 +1,7 @@
 
 https://shankaragarwal26.github.io/more/about_me/
 https://shankaragarwal26.github.io/blog/
-https://shankaragarwal26.github.io/cv/
+https://shankaragarwal26.github.io/more/cv/
 https://shankaragarwal26.github.io/feed.xml
 https://shankaragarwal26.github.io/
 https://shankaragarwal26.github.io/css/main.css

@@ -6,17 +6,14 @@ permalink: /
 
 {% include image.html url="images/photo.jpg" caption="" max_width="300px" align="right" %}
 
-I work at WalmartLabs as a Soft­ware En­gin­eer, with a prior experience of around 2 years in Adobe Systems. I cur­rently live and work in Bengaluru, In­dia. I am a post-gradu­ate from National Institute of Technology, Trichy with a ma­jor in Computer Science. I love pro­gram­ming and my spe­cific fields of in­terest are Machine Learning, Nat­ural Lan­guage Pro­cessing, In­form­a­tion Re­trieval and Soft­ware En­gin­eer­ing. 
+Hi!
 
-I am currently doing research under the mentorship of Prof. Indrajeet Mukherjee on few research projects related to Natural Language Process and Genetic Algorithms
-
-I have an apetite for in­form­a­tion about pretty much any­thing un­der the sun. I like vari­ety and have a propensity to keep try­ing dif­fer­ent things.Besides this, I am a football enthusiast and a big fan of Manchester United. I follow English Premier League closely and also love playing football.
+My name is Shankar and I would like to define myself as a trenchant & energetic individual .I love writing code, designing complex systems and catching up with the tech world by rapidly learning new things every now and then. I am an avid thinker and have a keen interest in the fields of Machine Learning, NLP and the likes. Beyond my technical skills, I possess an aptitude for reading and writing. I am also a football enthusiast and actively follow Manchester United during my spare time.
 
 (I try to update my website when I get time. If you want any updated information, please contact me on my email address)
 
 ## Contact
-
-[Shankar] <br />
++91 9916975900
 Email: [shankar892011@gmail.com]
 
 [shankar892011@gmail.com]: mailto:shankar892011@gmail.com

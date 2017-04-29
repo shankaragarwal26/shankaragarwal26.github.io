@@ -1,12 +1,6 @@
 - title: "Research"
   href: "/research/"
-
-- title: "CV"
-  href: "/cv/"
-
-- title: "Misc"
-  href: "/misc/"
-
+  
 - title: "Blog"
   href: "/blog/"
 
@@ -14,6 +8,8 @@
   subcategories:
     - subtitle: "Work-Ex"
       subhref: "/more/work_experience/"
+    - subtitle: "CV"
+      subhref: "/more/cv/"
     - subtitle: "About Me"
       subhref: "/more/about_me/"
 

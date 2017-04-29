@@ -2,83 +2,10 @@
 layout: page
 permalink: /more/about_me/
 title: About Me
-pubs:
-
-    - title:   "Paper title in 3-7 words that sound like Clingon"
-      author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-      journal: "Transactions on Black Magic"
-      note:    "(presented at Oz)"
-      year:    "2016"
-      url:     "http://publish-more-stuff.org"
-      doi:     "http://dx.doi.org"
-      image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-1020518087.jpg&f=1"
-      media:
-        - name: "IMDB"
-          url:  "http://www.imdb.com/title/tt0133093/"
-
-    - title:   "Paper title in 3-7 words that sound like Clingon"
-      author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-      journal: "Transactions on Black Magic"
-      note:    "(presented at Oz)"
-      year:    "2015"
-      url:     "http://publish-more-stuff.org"
-      doi:     "http://dx.doi.org"
-      image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-1020518087.jpg&f=1"
-      media:
-        - name: "IMDB"
-          url:  "http://www.imdb.com/title/tt0133093/"
-
-    - title:   "Paper title in 3-7 words that sound like Clingon"
-      author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-      journal: "Transactions on Black Magic"
-      note:    "(presented at Oz)"
-      year:    "2014"
-      url:     "http://publish-more-stuff.org"
-      doi:     "http://dx.doi.org"
-      image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-1020518087.jpg&f=1"
-      media:
-        - name: "IMDB"
-          url:  "http://www.imdb.com/title/tt0133093/"
-
-    - title:   "Paper title in 3-7 words that sound like Clingon"
-      author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-      journal: "Transactions on Black Magic"
-      note:    "(presented at Oz)"
-      year:    "2013"
-      url:     "http://publish-more-stuff.org"
-      doi:     "http://dx.doi.org"
-      image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-1020518087.jpg&f=1"
-      media:
-        - name: "IMDB"
-          url:  "http://www.imdb.com/title/tt0133093/"
-
-    - title:   "Paper title in 3-7 words that sound like Clingon"
-      author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-      journal: "Transactions on Black Magic"
-      note:    "(presented at Oz)"
-      year:    "2012"
-      url:     "http://publish-more-stuff.org"
-      doi:     "http://dx.doi.org"
-      image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-1020518087.jpg&f=1"
-      media:
-        - name: "IMDB"
-          url:  "http://www.imdb.com/title/tt0133093/"
-
 ---
 
-## Publications (peer reviewed)
+I work at WalmartLabs as a Soft­ware En­gin­eer, with a prior experience of around 2 years in Adobe Systems. I cur­rently live and work in Bengaluru, In­dia. I am a post-gradu­ate from National Institute of Technology, Trichy with a ma­jor in Computer Science. I love pro­gram­ming and my spe­cific fields of in­terest are Machine Learning, Nat­ural Lan­guage Pro­cessing, In­form­a­tion Re­trieval and Soft­ware En­gin­eer­ing. 
 
-{% assign thumbnail="left" %}
+I am currently doing research under the mentorship of Prof. Indrajeet Mukherjee on few research projects related to Natural Language Process and Genetic Algorithms
 
-{% for pub in page.pubs %}
-{% if pub.image %}
-{% include image.html url=pub.image caption="" height="100px" align=thumbnail %}
-{% endif %}
-[**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
-{{pub.author}}<br />
-*{{pub.journal}}*
-{% if pub.note %} *({{pub.note}})*
-{% endif %} *{{pub.year}}* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
-{% if pub.media %}<br />Media: {% for article in pub.media %}[[{{article.name}}]({{article.url}})]{% endfor %}{% endif %}
-
-{% endfor %}
+I have an apetite for in­form­a­tion about pretty much any­thing un­der the sun. I like vari­ety and have a propensity to keep try­ing dif­fer­ent things.Besides this, I am a football enthusiast and a big fan of Manchester United. I follow English Premier League closely and also love playing football.
