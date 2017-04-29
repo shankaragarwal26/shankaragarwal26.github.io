@@ -110,7 +110,7 @@ machine output and a human-generated answer key"
 
 {% assign thumbnail="left" %}
 
-## Research Project
+## Research Projects
 
 {% for pub in page.works %}
 **{{pub.title}}**

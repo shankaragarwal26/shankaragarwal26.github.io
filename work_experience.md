@@ -2,83 +2,32 @@
 layout: page
 permalink: /more/work_experience/
 title: Work Experience
-pubs:
+experiences:
 
-    - title:   "Paper title in 3-7 words that sound like Clingon"
-      author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-      journal: "Transactions on Black Magic"
-      note:    "(presented at Oz)"
-      year:    "2016"
-      url:     "http://publish-more-stuff.org"
-      doi:     "http://dx.doi.org"
-      image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-1020518087.jpg&f=1"
-      media:
-        - name: "IMDB"
-          url:  "http://www.imdb.com/title/tt0133093/"
+    - title:   "Engineer III at WalmartLabs,Bangalore"
+      time:    "October 2016 - Present"
+      projects:
+        -   name:  "Working on a project that deals with the 'Top 1 Million Items' in the world using various heuristic and data analysis techniques"
+        -   name:  "Working on the architecture of the crawler component for the next generation CIA system"
+        -   name:  "Worked on algorithms for matcher component of the CIA system."
+      tags:    "Python, Java, Hadoop, Machine Learning"
 
-    - title:   "Paper title in 3-7 words that sound like Clingon"
-      author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-      journal: "Transactions on Black Magic"
-      note:    "(presented at Oz)"
-      year:    "2015"
-      url:     "http://publish-more-stuff.org"
-      doi:     "http://dx.doi.org"
-      image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-1020518087.jpg&f=1"
-      media:
-        - name: "IMDB"
-          url:  "http://www.imdb.com/title/tt0133093/"
 
-    - title:   "Paper title in 3-7 words that sound like Clingon"
-      author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-      journal: "Transactions on Black Magic"
-      note:    "(presented at Oz)"
-      year:    "2014"
-      url:     "http://publish-more-stuff.org"
-      doi:     "http://dx.doi.org"
-      image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-1020518087.jpg&f=1"
-      media:
-        - name: "IMDB"
-          url:  "http://www.imdb.com/title/tt0133093/"
-
-    - title:   "Paper title in 3-7 words that sound like Clingon"
-      author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-      journal: "Transactions on Black Magic"
-      note:    "(presented at Oz)"
-      year:    "2013"
-      url:     "http://publish-more-stuff.org"
-      doi:     "http://dx.doi.org"
-      image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-1020518087.jpg&f=1"
-      media:
-        - name: "IMDB"
-          url:  "http://www.imdb.com/title/tt0133093/"
-
-    - title:   "Paper title in 3-7 words that sound like Clingon"
-      author:  "M. McFly, D. Kirk, L. Skywalker, H.J. Potter, I. Jones, H. Houdini"
-      journal: "Transactions on Black Magic"
-      note:    "(presented at Oz)"
-      year:    "2012"
-      url:     "http://publish-more-stuff.org"
-      doi:     "http://dx.doi.org"
-      image:   "https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.moviepostershop.com%2Fthe-matrix-movie-poster-1999-1020518087.jpg&f=1"
-      media:
-        - name: "IMDB"
-          url:  "http://www.imdb.com/title/tt0133093/"
+    - title:   "MTS-II at Adobe Systems, Bangalore"
+      time:    "August 2014 - May 2016"
+      projects:
+        -   name:  "Worked with the Creative Cloud Platform and Services team."
+        -   name:  "Worked on Device SDK, an Android SDK for manipulating SVG images required by other mobile applications"
+        -   name:  "Worked on Creative SDK which provides a rich set of components for a seamless workflow between mobile/desktop applications, Adobe tools and Creative Cloud Services."
+      tags:    "Android, Java, C++"
 
 ---
-
-## Publications (peer reviewed)
-
 {% assign thumbnail="left" %}
 
-{% for pub in page.pubs %}
+{% for pub in page.experiences %}
 {% if pub.image %}
 {% include image.html url=pub.image caption="" height="100px" align=thumbnail %}
 {% endif %}
-[**{{pub.title}}**]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})<br />
-{{pub.author}}<br />
-*{{pub.journal}}*
-{% if pub.note %} *({{pub.note}})*
-{% endif %} *{{pub.year}}* {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
-{% if pub.media %}<br />Media: {% for article in pub.media %}[[{{article.name}}]({{article.url}})]{% endfor %}{% endif %}
-
+{{pub.title}}<br />
+{% if pub.projects %}<br />Project:<br/> {% for project in pub.projects %}{{project.name}}<br/>{% endfor %}{% endif %}
 {% endfor %}
