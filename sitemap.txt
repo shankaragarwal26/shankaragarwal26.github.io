@@ -1,11 +1,11 @@
 
-http://shankaragarwal26.github.io/blog/
-http://shankaragarwal26.github.io/cv/
-http://shankaragarwal26.github.io/feed.xml
-http://shankaragarwal26.github.io/
-http://shankaragarwal26.github.io/css/main.css
-http://shankaragarwal26.github.io/misc/
-http://shankaragarwal26.github.io/research/
-http://shankaragarwal26.github.io/sitemap.txt
+https://shankaragarwal26.github.io/blog/
+https://shankaragarwal26.github.io/cv/
+https://shankaragarwal26.github.io/feed.xml
+https://shankaragarwal26.github.io/
+https://shankaragarwal26.github.io/css/main.css
+https://shankaragarwal26.github.io/misc/
+https://shankaragarwal26.github.io/research/
+https://shankaragarwal26.github.io/sitemap.txt
 
-http://shankaragarwal26.github.io/blog/2016/02/08/Chewbaca-is-talking-in-his-sleep
+https://shankaragarwal26.github.io/blog/2016/02/08/Chewbaca-is-talking-in-his-sleep
