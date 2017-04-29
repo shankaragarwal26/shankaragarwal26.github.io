@@ -1,7 +1,11 @@
----
-title : Sitemap
----
-{% for page in site.pages %}
-{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endfor %}
-{% for post in site.posts %}
-{{ post.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endfor %}
+
+/blog/
+/cv/
+/feed.xml
+/
+/css/main.css
+/misc/
+/research/
+/sitemap.txt
+
+/blog/2016/02/08/Chewbaca-is-talking-in-his-sleep
