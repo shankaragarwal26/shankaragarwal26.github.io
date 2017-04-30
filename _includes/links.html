@@ -1,4 +1,4 @@
-<div class="captioned-img align{{include.align}}">
+<!-- <div class="captioned-img align{{include.align}}">
     <a href="{{ include.url }}">
     {% if include.all %}
     <img src="{{ include.url }}" width="{{ include.width }}" height="{{ include.height }}" />
@@ -9,4 +9,12 @@
     {% else %}
     <img src="{{ include.url }}" />
     {% endif %}</a>{% if include.caption %}{{ include.caption }}{% endif %}
-</div>
+</div> -->
+
+{% if site.author.github %}
+<p><i class="fa fa-github"></i><a href="http://github.com/{{ site.author.github }}" target="_blank">  @{{ site.author.github }} </a></p>
+{% endif %}
+
+{% if site.author.hackerrank %}
+<p><i class="fa fa-hackerrank"></i><a href="https://www.hackerrank.com/{{ site.author.hackerrank }}" target="_blank">  @{{ site.author.hackerrank }} </a></p>
+{% endif %}

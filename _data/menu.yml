@@ -8,8 +8,10 @@
   subcategories:
     - subtitle: "Work-Ex"
       subhref: "/more/work_experience/"
-    - subtitle: "CV"
+    - subtitle: "Resume"
       subhref: "/more/cv/"
     - subtitle: "About Me"
       subhref: "/more/about_me/"
+    - subtitle: "Profiles"
+      subhref: "/more/profiles/"      
 

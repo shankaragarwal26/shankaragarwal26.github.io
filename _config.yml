@@ -11,8 +11,10 @@ github_username: shankaragarwal26
 
 author:
     name:
-    facebook:
+    facebook: ""
     scholar:
+    github: ddbullfrog
+    hackerrank: shan8913
 
 # Build settings
 markdown: kramdown
