@@ -1,5 +1,5 @@
 title: Shankar Agarwal
-description: Much-Worse Jekyll theme for academic page and blog
+description: Last Updated at {{site.time}}
 sourcecode: "https://github.com/gchauras/much-worse-jekyll-theme"
 
 permalink: blog/:year/:month/:day/:title

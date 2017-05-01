@@ -3,26 +3,29 @@
 ---
 @charset "utf-8";
 
-$base-font-family: 'EB Garamond', serif;
-$base-font-size:   x-large;
+$base-font-family: "Times New Roman", Georgia, Serif;
+$base-font-size:   large;
 $small-font-size:  0.875em;
 $vsmall-font-size: 0.66em;
 $base-line-height: 1.5;
 $spacing-unit:     1.5em;
 
 $grey-vlight:#eee;
+$white:      #fff;
+$blue:       #00f;
 $grey-light: #ccc;
 $grey:       #888;
 $grey-dark:  #444;
 $grey-vdark: #222;
+$black:      #000;
 $blue:       #0091ed;
 $orange:     #ca6c18;
 $red:        #b6321c;
 
-$background:        $grey-vlight;
-$dark-background:   darken($background, 5%);
-$text-color:        $grey-vdark;
-$text-light-color:  $grey;
+$background:        $white;
+$dark-background:   darken($background, 15%);
+$text-color:        $black;
+$text-light-color:  $blue;
 $url-color:         $red;
 $url-hover-color:   $orange;
 $header-text-color: $text-light-color;

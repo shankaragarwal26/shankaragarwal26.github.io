@@ -1,13 +1,13 @@
 
-https://shankaragarwal26.github.io/more/about_me/
-https://shankaragarwal26.github.io/blog/
-https://shankaragarwal26.github.io/more/cv/
-https://shankaragarwal26.github.io/feed.xml
-https://shankaragarwal26.github.io/
-https://shankaragarwal26.github.io/css/main.css
-https://shankaragarwal26.github.io/misc/
-https://shankaragarwal26.github.io/research/
-https://shankaragarwal26.github.io/sitemap.txt
-https://shankaragarwal26.github.io/more/work_experience/
+http://localhost:4000/more/about_me/
+http://localhost:4000/blog/
+http://localhost:4000/more/cv/
+http://localhost:4000/feed.xml
+http://localhost:4000/
+http://localhost:4000/css/main.css
+http://localhost:4000/more/profiles/
+http://localhost:4000/research/
+http://localhost:4000/sitemap.txt
+http://localhost:4000/more/work_experience/
 
-https://shankaragarwal26.github.io/blog/2016/02/08/Chewbaca-is-talking-in-his-sleep
+http://localhost:4000/blog/2016/02/08/Chewbaca-is-talking-in-his-sleep

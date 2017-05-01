@@ -5,10 +5,10 @@
   font-size: 0.875em; }
 
 .site-header, .site-header a {
-  color: #888; }
+  color: #0091ed; }
 
 .site-header a:hover {
-  color: #222;
+  color: #000;
   text-decoration: none; }
 
 .site-title {
@@ -18,7 +18,7 @@
   letter-spacing: 1px; }
 
 .site-nav {
-  background: #eee; }
+  background: #fff; }
 
 .site-nav ul {
   text-align: right;
@@ -40,7 +40,7 @@
   display: block;
   line-height: 1.2em;
   padding: 4px 10px;
-  color: #222; }
+  color: #000; }
 
 .site-nav .sub-menu a:hover {
   color: #b6321c; }
@@ -55,7 +55,7 @@
 
 .sub-menu {
   border: 1px solid #ccc;
-  background: #eee;
+  background: #fff;
   display: none;
   right: -10px;
   padding: 4px 0 3px 0;
@@ -86,7 +86,7 @@
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #888; }
+    color: #0091ed; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
   @media screen and (max-width: 32em) {
@@ -148,10 +148,10 @@
   .site-nav .menu li {
     display: block;
     margin: 0;
-    color: #222; }
+    color: #000; }
 
   .site-nav ul.menu a {
-    color: #222; }
+    color: #000; }
 
   .site-nav ul.menu a:hover {
     color: #b6321c; }
@@ -186,11 +186,11 @@ html {
   overflow-y: scroll; }
 
 body {
-  font-family: "EB Garamond", serif;
-  font-size: x-large;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: large;
   line-height: 1.5;
-  color: #222;
-  background-color: #eee;
+  color: #000;
+  background-color: #fff;
   margin: 0 0.75em;
   -webkit-text-size-adjust: 100%; }
 
@@ -236,7 +236,7 @@ a {
     text-decoration: none; }
 
 blockquote {
-  background-color: #e1e1e1;
+  background-color: #d9d9d9;
   border-left: 4px solid #242424;
   padding-left: 1.0em;
   padding-right: 0.8em;
@@ -249,7 +249,7 @@ blockquote {
 pre, code {
   border: 1px solid #ccc;
   border-radius: 3px;
-  background-color: #e1e1e1;
+  background-color: #d9d9d9;
   font-family: monospace;
   font-size: 0.875em; }
 
@@ -270,14 +270,14 @@ pre {
   height: 0.75em;
   vertical-align: middle; }
   .icon > svg path {
-    fill: #222; }
+    fill: #000; }
 
 .footnotes ol li {
   list-style-type: decimal; }
 
 .footnotes ol {
   font-size: 0.66em;
-  color: #888; }
+  color: #0091ed; }
 
 ul.listing {
   list-style-type: none;
@@ -288,7 +288,7 @@ ul.listing li.listing-seperator {
   font-size: 1.17em; }
 
 ul.listing li.listing-item time {
-  color: #888;
+  color: #0091ed;
   text-transform: uppercase;
   padding-right: 0.5em; }
 
@@ -297,7 +297,7 @@ ul.listing li.listing-item a {
 
 .site-footer {
   font-size: 0.66em;
-  color: #888;
+  color: #0091ed;
   border-top: 1px solid #ccc;
   padding-top: 1.5em;
   float: none;
@@ -352,7 +352,7 @@ ul.listing li.listing-item a {
 
 .post-meta {
   font-size: 0.875em;
-  color: #888; }
+  color: #0091ed; }
 
 .post-link {
   display: block; }
